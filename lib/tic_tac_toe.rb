@@ -37,7 +37,7 @@ def update_array_at_with(board, adjusted_input, current_player)
   return board
 end
 
-def move(board, adjusted_input, current_player = "X")
+def move(board, adjusted_input, current_player)
   board = update_array_at_with(board, adjusted_input, current_player)
   display_board(board)
 end
